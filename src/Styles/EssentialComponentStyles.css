@@ -1,0 +1,115 @@
+/* ====== Sidebar Styles ====== */
+.Sidebar-Container {
+    margin: 0;
+    width: 25%;
+    height: 100vh;
+    z-index: 4;
+}
+
+.Sidebar-Header {
+    font-size: 1.0em;
+    text-align: center;
+
+    color: var(--3322-light-blue);
+    background-color: var(--3322-black);
+
+    height: 15%;
+}
+
+.Sidebar-Content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+
+    color: var(--3322-white);
+    background-color: var(--3322-black);
+
+    height: 85%;
+}
+
+
+/* ====== Main Viewport ====== */
+.Main-Content {
+    margin: 0;
+    width: 75%;
+    height: 92.5vh;
+    z-index: 1;
+
+    background-color: var(--3322-dark-blue);
+    color: var(--3322-white);
+    padding-left: 3%;
+}
+
+.Body-Container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    overflow: hidden;
+    height: 92.5vh;
+}
+
+.Logo {
+    height: 10vh;
+    width: auto;
+    z-index: 5;
+
+    position: fixed;
+    transform: translate(88.5em, 35em) scale(2);
+}
+
+.ViewportSwitchButton:link, .ViewportSwitchButton:visited, .ViewportSwitchButton:hover, .ViewportSwitchButton:active {
+    color: var(--3322-light-blue);
+}
+
+
+
+
+/* ====== Header Styles ====== */
+header {
+    margin: 0;
+    width: 100%;
+    height: 7.5vh;
+    z-index: 5;
+
+    background-color: var(--3322-black);
+    color: var(--3322-light-blue);
+
+    font-size: 1.0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ====== Colors Styles ====== */
+
+:root {
+    --sky-blue: #99CCFFff;
+    --baby-blue-ice: #8EC3F7ff;
+    --baby-blue-ice-2: #83BBEEff;
+    --cool-sky: #78B2E6ff;
+    --cool-horizon: #6DA9DDff;
+    --blue-grey: #62A0D5ff;
+    --blue-bell: #5798CCff;
+    --blue-bell-2: #4D8FC4ff;
+    --steel-blue: #4286BCff;
+    --steel-blue-2: #377EB3ff;
+    --rich-cerulean: #2C75ABff;
+    --cornflower-ocean: #216CA2ff;
+    --baltic-blue: #16639Aff;
+    --baltic-blue-2: #0B5B91ff;
+    --baltic-blue-3: #005289ff;
+
+    --3322-light-blue: #99CCFFff;
+    --3322-dark-blue: #005289ff;
+    --3322-grey: #97A6B2ff;
+    --3322-white: #FFFFFFff;
+    --3322-black: #000000ff;
+
+    --PeptoBismol-Yellow: #ede342ff;
+    --PeptoBismol-Orange: #f2bf6cff;
+    --PeptoBismol-Peach: #f69a97ff;
+    --PeptoBismol-Pink: #fb76c1ff;
+    --PeptoBismol-NeonPink: #ff51ebff;
+}

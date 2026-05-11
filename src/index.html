@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3322 Documentation</title>
+
+        <link rel="stylesheet" href="Styles/GeneralStyles.css">
+        <link rel="stylesheet" href="Styles/EssentialComponentStyles.css">
+    </head>
+
+    <header>
+        <h1>Eagle Evolution Documentation</h1>
+    </header>
+
+    <body>
+        <a class="Logo-Container">
+            <img src="Content/Images/3322_emblem_no_background.png" alt="3322 Logo" class="Logo">
+        </a>
+
+        <div class="Body-Container">
+            <div class="Sidebar-Container">
+                <div class="Sidebar-Header">
+                    <h1>Viewport</h1>
+                </div>
+
+                <div class="Sidebar-Content">
+                    <a class="ViewportSwitchButton" href="Content/Pages/HomePage.html" target="IframeTest">Home</a>
+                    <a class="ViewportSwitchButton" href="Content/Pages/Programming.html" target="IframeTest">Programming</a>
+                    <a class="ViewportSwitchButton" href="Content/Defaults/DefaultPage.html" target="IframeTest">API Reference</a>
+                    <a class="ViewportSwitchButton" href="Content/Defaults/DefaultPage.html" target="IframeTest">Examples</a>
+                    <a class="ViewportSwitchButton" href="Content/Pages/Contributing.html" target="IframeTest">Contributing</a>
+                </div>
+            </div>
+
+            <!-- Content must be defined and drawn last -->
+            <iframe src="Pages/HomePage.html" class="Main-Content" name="IframeTest" id="Content-Frame"></iframe>
+        </div>
+
+        <script src="Scripts/Main.ts"></script>
+    </body>
+</html>
