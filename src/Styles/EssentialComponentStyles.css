@@ -27,6 +27,35 @@
     height: 85%;
 }
 
+.CategoryDropdown {
+    margin: 0;
+}
+
+.CategoryButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.CategoryButton:hover {
+    background-color: #e0e0e0;
+}
+
+.CategoryItems {
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+}
+
+.CategoryItems .ViewportSwitchButton {
+    display: block;
+    padding: 8px 10px;
+}
+
 
 /* ====== Main Viewport ====== */
 .Main-Content {

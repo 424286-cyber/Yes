@@ -1,0 +1,57 @@
+{
+    "Structure": [
+        {
+            "Type": "Link",
+            "Name": "Home",
+            "href": "Content/Pages/HomePage.html"
+        },
+        {
+            "Type": "Category",
+            "Name": "Test Category 1",
+            "Children": [
+                {
+                    "Type": "Category",
+                    "Name": "Test Category 3",
+                    "Children": [
+                        {
+                            "Type": "Link",
+                            "Name": "Test Broken Link",
+                            "href": ""
+                        },
+                        {
+                            "Type": "Link",
+                            "Name": "Test 2",
+                            "href": ""
+                        }
+                    ]
+                },
+                {
+                    "Type": "Link",
+                    "Name": "Test 1",
+                    "href": "https://www.google.com"
+                },
+                {
+                    "Type": "Link",
+                    "Name": "Test 2",
+                    "href": "https://www.github.com"
+                }
+            ]
+        },
+        {
+            "Type": "Category",
+            "Name": "AI use",
+            "Children": [
+                {
+                    "Type": "Link",
+                    "Name": "Test 3",
+                    "href": ""
+                },
+                {
+                    "Type": "Link",
+                    "Name": "Test 4",
+                    "href": ""
+                }
+            ]
+        }
+    ]
+}
