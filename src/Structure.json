@@ -7,23 +7,12 @@
         },
         {
             "Type": "Category",
-            "Name": "Test Category 1",
+            "Name": "What is programming",
             "Children": [
                 {
                     "Type": "Category",
-                    "Name": "Test Category 3",
-                    "Children": [
-                        {
-                            "Type": "Link",
-                            "Name": "Test Broken Link",
-                            "href": ""
-                        },
-                        {
-                            "Type": "Link",
-                            "Name": "Test 2",
-                            "href": ""
-                        }
-                    ]
+                    "Name": "History of Programming",
+                    "Children": []
                 },
                 {
                     "Type": "Link",
@@ -39,12 +28,12 @@
         },
         {
             "Type": "Category",
-            "Name": "AI use",
+            "Name": "Intro To Java",
             "Children": [
                 {
                     "Type": "Link",
                     "Name": "Test 3",
-                    "href": ""
+                    "href": "Content/Pages/TestPage.html"
                 },
                 {
                     "Type": "Link",
@@ -52,6 +41,10 @@
                     "href": ""
                 }
             ]
+        },
+        {
+            "Type": "Category",
+            "Name": ""
         }
     ]
 }
